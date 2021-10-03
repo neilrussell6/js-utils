@@ -1,4 +1,4 @@
-My Generic JavaScript utilities
+A collection of useful JavaScript functions
 ===
 
 Available commands
