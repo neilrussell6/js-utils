@@ -17,6 +17,8 @@
     "ls": "lerna ls",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test --stream --concurrency=1 -- --colors",
+    "build": "lerna run build --stream --concurrency=1 -- --colors",
+    "publish": "lerna publish",
     "_init:all": "lerna run init --stream --concurrency=1 -- --colors",
     "_init:envs": "cp -n .env.tpl .env || true",
     "init": "npm-run-all _init:envs _init:all bootstrap",

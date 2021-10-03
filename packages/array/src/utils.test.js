@@ -1,4 +1,4 @@
-import tape from 'tape';
+import tape from 'tape'
 import { parametrizeSync } from 'js-parametrize'
 
 import * as SUT from './utils'
