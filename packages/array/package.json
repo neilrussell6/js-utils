@@ -23,6 +23,7 @@
     }
   },
   "directories": {
+    "dist": "dist",
     "src": "src"
   },
   "files": [
