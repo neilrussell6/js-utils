@@ -1,0 +1,29 @@
+{
+  "name": "root",
+  "description": "A collection of useful JavaScript functions",
+  "keywords": [],
+  "author": "Neil Russell <neilrussell6@gmail.com>",
+  "private": false,
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilrussell6/js-generic-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neilrussell6/js-generic-utils/issues"
+  },
+  "homepage": "https://github.com/neilrussell6/js-generic-utils#readme",
+  "scripts": {
+    "ls": "lerna ls",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test --stream --concurrency=1 -- --colors",
+    "_init:all": "lerna run init --stream --concurrency=1 -- --colors",
+    "_init:envs": "cp -n .env.tpl .env || true",
+    "init": "npm-run-all _init:envs _init:all bootstrap",
+    "help": "package-json-help.js"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "package-json-help": "0.0.11"
+  }
+}
