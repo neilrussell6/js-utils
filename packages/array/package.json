@@ -40,5 +40,6 @@
   },
   "dependencies": {
     "ramda": "^0.27.1"
-  }
+  },
+  "gitHead": "09a693739ff89d0f85ce5163e5f38ed21bba0827"
 }
